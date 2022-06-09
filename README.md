@@ -4,13 +4,13 @@
 ## 📌 Repo to play around with Playwright in JS
 ### Things to explore
 
-  - [-] Run tests across all browsers.
+  - [ ] Run tests across all browsers.
     - [x] Chrome
     - [x] Firefox
     - [x] Safari
     - [ ] Opera
     - [ ] Edge
-  - [-] CI
+  - [ ] CI
     - [x] GitHub Actions
     - [ ] Jenkins
     - [ ] Git Lab
@@ -22,6 +22,10 @@
   - [ ] Implement Page Objects
   - [ ] Play around with headed browsers
   - [ ] Integrate with Selenium Grid
+  - [ ] Plugins
+    - [ ] [vscode-playwright-test-snippets](https://github.com/mskelton/vscode-playwright-test-snippets)
+    - [ ] [vscode-playwright-snippets](https://github.com/nitayneeman/vscode-playwright-snippets)
+    - [ ] [playwright-vscode-trace-viewer](https://github.com/ryanrosello-og/playwright-vscode-trace-viewer)
   - [ ] ...
   
 ## [Documentation](https://playwright.dev) | [API reference](https://playwright.dev/docs/api/class-playwright)
