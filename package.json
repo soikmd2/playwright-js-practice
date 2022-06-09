@@ -17,5 +17,8 @@
   "homepage": "https://github.com/soikmd2/playwright-js-practice#readme",
   "devDependencies": {
     "@playwright/test": "^1.22.2"
+  },
+  "dependencies": {
+    "lariat": "^1.3.0"
   }
 }
