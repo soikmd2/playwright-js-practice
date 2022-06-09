@@ -1,6 +1,29 @@
 # 🎭 playwright-js-practice
-Repo to play around with Playwright in JS
+[![playwright-tests](https://github.com/soikmd2/playwright-js-practice/actions/workflows/playwright.yml/badge.svg)](https://github.com/soikmd2/playwright-js-practice/actions/workflows/playwright.yml)
 
+## 📌 Repo to play around with Playwright in JS
+### Things to explore
+
+  - [-] Run tests across all browsers.
+    - [x] Chrome
+    - [x] Firefox
+    - [x] Safari
+    - [ ] Opera
+    - [ ] Edge
+  - [-] CI
+    - [x] GitHub Actions
+    - [ ] Jenkins
+    - [ ] Git Lab
+  - [ ] Use Playwright as Library and Jest as the test runner
+  - [ ] Execute tests in parallel.
+  - [ ] Experiment context isolation.
+  - [ ] Capture videos, screenshots and other artifacts on failure.
+  - [ ] Integrate your POMs as extensible fixtures.
+  - [ ] Implement Page Objects
+  - [ ] Play around with headed browsers
+  - [ ] Integrate with Selenium Grid
+  - [ ] ...
+  
 ## [Documentation](https://playwright.dev) | [API reference](https://playwright.dev/docs/api/class-playwright)
 
 Playwright is a framework for Web Testing and Automation. It allows testing [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) with a single API. Playwright is built to enable cross-browser web automation that is **ever-green**, **capable**, **reliable** and **fast**.
