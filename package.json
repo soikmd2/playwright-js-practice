@@ -1,0 +1,21 @@
+{
+  "name": "playwright-js-practice",
+  "version": "1.0.0",
+  "description": "Repo to play around with Playwright in JS",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soikmd2/playwright-js-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soikmd2/playwright-js-practice/issues"
+  },
+  "homepage": "https://github.com/soikmd2/playwright-js-practice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  }
+}
