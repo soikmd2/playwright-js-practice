@@ -20,6 +20,7 @@
   - [ ] Capture videos, screenshots and other artifacts on failure.
   - [ ] Integrate your POMs as extensible fixtures.
   - [ ] Implement Page Objects
+  - [ ] Try [Lariat](https://github.com/Widen/lariat)
   - [ ] Play around with headed browsers
   - [ ] Integrate with Selenium Grid
   - [ ] Plugins
