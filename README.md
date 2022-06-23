@@ -19,8 +19,12 @@
   - [ ] Experiment context isolation.
   - [ ] Capture videos, screenshots and other artifacts on failure.
   - [ ] Integrate your POMs as extensible fixtures.
-  - [ ] Implement Page Objects
+  - [ ] Implement Page Objects [natively](https://playwright.dev/docs/test-pom)
   - [ ] Try [Lariat](https://github.com/Widen/lariat)
+  - [ ] Try [eslint-plugin-playwright](https://github.com/playwright-community/eslint-plugin-playwright)
+  - [ ] Try [expect-playwright](https://github.com/playwright-community/expect-playwright)
+  - [ ] Try [playwright-testing-library](https://github.com/testing-library/playwright-testing-library)
+  - [ ] Play with all locator class API. [reference here](https://playwright.dev/docs/api/class-locator)
   - [ ] Play around with headed browsers
   - [ ] Integrate with Selenium Grid
   - [ ] Plugins
@@ -32,6 +36,16 @@
 ## [Documentation](https://playwright.dev) | [API reference](https://playwright.dev/docs/api/class-playwright)
 
 Playwright is a framework for Web Testing and Automation. It allows testing [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) with a single API. Playwright is built to enable cross-browser web automation that is **ever-green**, **capable**, **reliable** and **fast**.
+
+# Installation
+Playwright has its own test runner for end-to-end tests, we call it Playwright Test.
+
+```
+npm i -D @playwright/test
+
+# install supported browsers
+npx playwright install
+```
 
 |          | Linux | macOS | Windows |
 |   :---   | :---: | :---: | :---:   |
