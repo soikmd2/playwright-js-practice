@@ -167,6 +167,65 @@ test('Intercept network requests', async ({ page }) => {
 });
 ```
 
+## Command line
+
+Following are the usual command line patterns. Learn more about the [command line](https://playwright.dev/docs/test-cli).
+
+- Run all the tests
+  ```bash
+  npx playwright test
+  ```
+
+- Run a single test file
+  ```bash
+  npx playwright test tests/todo-page.spec.ts
+  ```
+
+- Run a set of test files
+  ```bash
+  npx playwright test tests/todo-page/ tests/landing-page/
+  ```
+
+- Run files that have `my-spec` or `my-spec-2` in the file name
+  ```bash
+  npx playwright test my-spec my-spec-2
+  ```
+
+- Run the test with the title
+  ```bash
+  npx playwright test -g "add a todo item"
+  ```
+
+- Run tests in headed browsers
+  ```bash
+  npx playwright test --headed
+  ```
+
+- Run tests in a particular configuration (project)
+  ```bash
+  npx playwright test --project=firefox
+  ```
+
+- Disable [parallelization](./test-parallel.md)
+  ```bash
+  npx playwright test --workers=1
+  ```
+
+- Choose a [reporter](./test-reporters.md)
+  ```bash
+  npx playwright test --reporter=dot
+  ```
+
+- Run in debug mode with [Playwright Inspector](./inspector.md)
+  ```bash
+  npx playwright test --debug
+  ```
+
+- Ask for help
+  ```bash
+  npx playwright test --help
+  ```
+
 ## Resources
 
 * [Documentation](https://playwright.dev/docs/intro)
